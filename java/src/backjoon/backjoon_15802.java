@@ -3,17 +3,14 @@ package backjoon;
 import java.io.*;
 import java.util.Scanner;
 
-public class backjoon_15963 {
+public class backjoon_15802 {
     public static void main(String[] args) throws IOException {
     	Scanner sc = new Scanner(System.in);
-    	long n = sc.nextLong();
-    	long m = sc.nextLong();
-    	if(n == m) {
+    	String n = sc.next();
+    	if(n == "live") {
     		System.out.println(1);
-    	}else {
+    	}else{
     		System.out.println(0);
     	}
     }
 }
-
-// 10자리 정수까지 들어올 수 있으므로 int의 범위를 넘는다.
