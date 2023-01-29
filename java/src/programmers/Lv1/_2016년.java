@@ -1,5 +1,4 @@
 package programmers.Lv1;
-import java.util.*;
 
 public class _2016³â {
 	
